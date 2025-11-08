@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Cadenas | Junior Software Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'primary-blue': '#1e40af', // Dark Blue
+                'secondary-gray': '#f3f4f6', // Light Gray
+                'text-dark': '#1f2937', // Dark Text
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        section {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    </style>
+</head>
+<body class="bg-white text-text-dark font-sans">
+
+    <header class="sticky top-0 bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-primary-blue hover:text-blue-700">Victor Cadenas</a>
+            <div class="space-x-4">
+                <a href="#about" class="text-lg hover:text-primary-blue">About</a>
+                <a href="#skills" class="text-lg hover:text-primary-blue">Skills</a>
+                <a href="#work" class="text-lg hover:text-primary-blue">Work Projects</a>
+                <a href="#personal" class="text-lg hover:text-primary-blue">Personal</a>
+                <a href="#contact" class="text-lg hover:text-primary-blue">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-secondary-gray min-h-screen flex items-center justify-center text-center">
+        <div class="max-w-4xl px-6">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4">
+                👋 Hi, I'm <span class="text-primary-blue">Victor Cadenas</span>.
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-medium text-gray-700 mb-8">
+                Junior Software Engineer | Full-Stack Developer
+            </h2>
+            <p class="text-lg text-gray-600 mb-10">
+                Passionate about building scalable solutions and learning new technologies. Focused on clean code, unit testing, and delivering tangible business value.
+            </p>
+            <a href="#work" class="bg-primary-blue text-white py-3 px-8 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300 shadow-lg">
+                View Featured Projects
+            </a>
+        </div>
+    </section>
+
+    ---
+
+    <section id="about" class="container mx-auto px-6 max-w-5xl">
+        <h3 class="text-4xl font-bold text-text-dark mb-10 text-center border-b-4 border-primary-blue pb-2 inline-block">
+            About Me
+        </h3>
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/3">
+                <div class="bg-gray-300 w-48 h-48 rounded-full mx-auto flex items-center justify-center text-gray-500 text-sm"></div>
+            </div>
+            <div class="md:w-2/3 text-lg text-gray-700">
+                <p class="mb-4">
+                    My programming journey started with <span class="font-semibold">Python and JavaScript</span>. During my studies, I specialized in full-stack web development, prioritizing microservices architecture and client-side efficiency.
+                </p>
+                <p class="mb-4">
+                    I am seeking a role where I can contribute to challenging projects, applying my knowledge of <span class="font-semibold">data structures, algorithms</span> and my commitment to development best practices (Git, basic CI/CD).
+                </p>
+                <p>
+                    I am currently deepening my skills in <span class="font-semibold">Java</span>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="skills" class="bg-secondary-gray">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h3 class="text-4xl font-bold text-text-dark mb-12 text-center border-b-4 border-primary-blue pb-2 inline-block">
+                Technical Skills
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"><h4 class="text-xl font-semibold mb-3 text-primary-blue">Languages & Core</h4><ul class="list-disc list-inside text-gray-700 space-y-1"><li>JavaScript (ES6+)</li><li>Python</li><li>HTML5 & CSS3</li><li>MySQL</li><li>TypeScript</li></ul></div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"><h4 class="text-xl font-semibold mb-3 text-primary-blue">Frontend</h4><ul class="list-disc list-inside text-gray-700 space-y-1"><li>React</li><li>Tailwind CSS</li><li>Bootstrap</li><li>Angular</li><li>Responsive Design</li><li>Web Performance</li></ul></div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"><h4 class="text-xl font-semibold mb-3 text-primary-blue">Backend & DevOps</h4><ul class="list-disc list-inside text-gray-700 space-y-1"><li>Node.js</li><li>Flask</li><li>REST APIs</li><li>Git & GitHub</li></ul></div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300"><h4 class="text-xl font-semibold mb-3 text-primary-blue">Tools & QA</h4><ul class="list-disc list-inside text-gray-700 space-y-1"><li>VS Code, Postman</li><li>WebPack/Vite</li><li>Agile Methodologies</li></ul></div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="work" class="container mx-auto px-6 max-w-5xl">
+        <h3 class="text-4xl font-bold text-text-dark mb-4 text-center border-b-4 border-primary-blue pb-2 inline-block">
+            Professional Work Experience
+        </h3>
+        <p class="text-center text-gray-600 mb-8 italic p-2 border-l-4 border-yellow-500 bg-yellow-50">
+            **Disclaimer:** Due to **Non-Disclosure Agreements (NDAs)**, I cannot share proprietary code or live links. I will only describe my role, the project's impact, and the technologies used.
+        </p>
+
+        <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-8">
+            <h4 class="text-2xl font-bold text-primary-blue mb-2">1. Last-Mile tracking administration</h4>
+            <p class="text-sm text-gray-500 mb-4">Employer: Monkey Valley | Role: System assistant</p>
+            <p class="text-gray-700 mb-4">
+                Refactored the validation and payment processing service using **Node.js** and an **AWS Lambda** function. My contribution involved implementing unit tests and optimizing database connection pooling.
+                I built a system for managing and managing company information, as well as real-time tracking of the teams responsible for product delivery. I also created an application for drivers and assistants with shipping routes and attendance records.
+            </p>
+            <p class="font-semibold text-green-700 mb-4">
+                Key Result: Real-time monitoring and improving information management.
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Angular</span>
+                <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">Flask (python)</span>
+                <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">MySQL</span>
+            </div>
+        </div>
+
+        </section>
+
+    ---
+
+    <section id="personal" class="bg-secondary-gray">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h3 class="text-4xl font-bold text-text-dark mb-12 text-center border-b-4 border-primary-blue pb-2 inline-block">
+                Others Projects
+            </h3>
+            
+            <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-8 hover:shadow-2xl transition duration-500">
+                <h4 class="text-2xl font-bold text-primary-blue mb-2">1. Task Management System (Frontend)</h4>
+                <p class="text-sm text-gray-500 mb-4">Focus: UX/UI</p>
+                <p class="text-gray-700 mb-4">
+                    Made a web page of a etoken with user interaction and the implementation of i18next for translation.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">React</span>
+                </div>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-8 hover:shadow-2xl transition duration-500">
+                <h4 class="text-2xl font-bold text-primary-blue mb-2">2. Online medical appointments (Full-Stack)</h4>
+                <p class="text-sm text-gray-500 mb-4">Focus: Online appointments</p>
+                <p class="text-gray-700 mb-4">
+                    A doctor's presentation website for patients that allows them to schedule their appointment based on available location and times.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">React</span>
+                    <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded">TypeScript</span>
+                </div>
+                <!-- <div class="flex space-x-4">
+                    <a href="[URL_DEMO_2]" target="_blank" class="text-primary-blue font-semibold hover:text-blue-700">🚀 Live Demo</a>
+                    <a href="[URL_GITHUB_2]" target="_blank" class="text-gray-700 font-semibold hover:text-text-dark">🔗 Source Code</a>
+                </div> -->
+            </div>
+
+            <h4 class="text-3xl font-bold text-text-dark mt-16 mb-8 text-center border-b-2 border-gray-400 pb-1 inline-block" id="academic">
+                Academic/Course Projects
+            </h4>
+            
+            <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-6 mb-8">
+                <h4 class="text-2xl font-bold text-primary-blue mb-2">3. Book Recommendation Engine</h4>
+                <p class="text-sm text-gray-500 mb-4">Course: Data Structures and Algorithms | Focus: Optimizing Search</p>
+                <p class="text-gray-700 mb-4">
+                    Developed a console application in **Python** implementing a simple **Collaborative Filtering algorithm**. The focus was on demonstrating understanding of algorithm efficiency ($O(n)$ complexity) and clean Python implementation.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">Python</span>
+                    <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Algorithms</span>
+                    <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded">Data Structures</span>
+                </div>
+                <div class="flex space-x-4 mt-4">
+                    <a href="[URL_GITHUB_3]" target="_blank" class="text-gray-700 font-semibold hover:text-text-dark">🔗 Source Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    ---
+
+    <section id="contact" class="bg-primary-blue text-white">
+        <div class="container mx-auto px-6 max-w-5xl text-center">
+            <h3 class="text-4xl font-bold mb-4">Let's Connect!</h3>
+            <p class="text-xl mb-6">I am currently open to new software development opportunities.</p>
+            <div class="flex justify-center space-x-8 text-2xl">
+                <a href="mailto:your.email@example.com" class="hover:text-yellow-300 transition duration-300" title="Email Address">
+                    
+                </a>
+                <a href="[www.linkedin.com/in/vlcadenasu2]" target="_blank" class="hover:text-yellow-300 transition duration-300" title="LinkedIn">
+                    
+                </a>
+                <a href="[https://github.com/VCadenasu]" target="_blank" class="hover:text-yellow-300 transition duration-300" title="GitHub">
+                    
+                </a>
+                <!-- <a href="[URL_CV]" target="_blank" class="bg-white text-primary-blue py-2 px-4 rounded-lg text-lg font-semibold hover:bg-gray-200 transition duration-300" title="Download CV">
+                    Download CV
+                </a> -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-text-dark text-white py-4 text-center">
+        <p class="text-sm">&copy; 2025 Victor Cadenas. Built with ❤️ and Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
